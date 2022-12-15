@@ -1,3 +1,4 @@
+// only returns errors when in development mode
 const errorHandler=(err, req, res, next )=>{
     const statusCode= res.statusCode? res.statusCode: 500
 
